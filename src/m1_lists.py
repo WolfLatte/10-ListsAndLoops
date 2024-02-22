@@ -27,7 +27,7 @@ print(ingredients)
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-print(ingredients[1])
+print(ingredients[2])
 ###############################################################################
 # DONE: 3. (2 pts)
 #   
@@ -38,7 +38,7 @@ print(ingredients[1])
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-ingredients[1] = "vanila"
+ingredients[1] = "vanilla"
 print(ingredients)
 ###############################################################################
 # DONE: 4. (2 pts)
@@ -52,7 +52,8 @@ print(ingredients)
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-print(ingredients.append("chocolate chips"))
+ingredients.append("chocolate chips")
+print(ingredients)
 ###############################################################################
 # DONE: 5. (2 pts)
 #   
