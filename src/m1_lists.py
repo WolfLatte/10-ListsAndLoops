@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (2 pts)
+# DONE: 1. (2 pts)
 #   
 #   In this module, we will be looking at lists. Lists are exactly that, a list
 #   of items.
@@ -16,9 +16,10 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+ingredients = ["flour", "eggs", "water","sugar"]
+print(ingredients)
 ###############################################################################
-# TODO: 2. (2 pts)
+# DONE: 2. (2 pts)
 #   
 #   For this _TODO_, write a line of code that accesses the *third* item in the
 #   list (remember the index of the first item is 0) and prints the item. Make
@@ -26,9 +27,9 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(ingredients[1])
 ###############################################################################
-# TODO: 3. (2 pts)
+# DONE: 3. (2 pts)
 #   
 #   For this _TODO_, write a line of code that changes the *second* item to a
 #   different ingredient that you don't already have in your list. Once you
@@ -37,9 +38,10 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+ingredients[1] = "vanila"
+print(ingredients)
 ###############################################################################
-# TODO: 4. (2 pts)
+# DONE: 4. (2 pts)
 #   
 #   For this _TODO_, write a line of code that adds an ingredient to the end of
 #   the list. Once you have done this, print the list. Make sure you do NOT
@@ -50,9 +52,9 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(ingredients.append("chocolate chips"))
 ###############################################################################
-# TODO: 5. (2 pts)
+# DONE: 5. (2 pts)
 #   
 #   For this _TODO_, write a line of code that removes the last item from the
 #   list. Once you have done this, print the list. Make sure you do NOT create
@@ -63,3 +65,5 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+ingredients.remove("chocolate chips")
+print(ingredients)
